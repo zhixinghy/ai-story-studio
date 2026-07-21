@@ -1,7 +1,9 @@
+import { Button } from '@repo/ui'
+
 export default function HomePage() {
   return (
-    <main className="flex min-h-screen items-center justify-center">
-      <h1 className="text-4xl font-bold">AI Story Studio</h1>
+    <main>
+      <Button>Test Button</Button>
     </main>
-  );
+  )
 }
